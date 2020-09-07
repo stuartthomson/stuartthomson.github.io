@@ -1,8 +1,7 @@
 ---
 title: "Loschmidt's Paradox"
-date: 2020-01-01T00:00:01Z
-draft: true
-tags: ["Maths", "Philosophy"]
+date: 2020-07-09T23:20:01Z
+tags: ["Maths", "Philosophy", "Physics"]
 ---
 
 $$
