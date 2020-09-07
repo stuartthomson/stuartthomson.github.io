@@ -3,23 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://stuartthomson.github.io/posts/jarzynski/</loc>
+    <loc>http://stuartthomson.github.io/posts/loschmidt/</loc>
+    <lastmod>2020-07-09T23:20:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://stuartthomson.github.io/categories/</loc>
+    <loc>http://stuartthomson.github.io/tags/maths/</loc>
+    <lastmod>2020-07-09T23:20:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stuartthomson.github.io/tags/philosophy/</loc>
+    <lastmod>2020-07-09T23:20:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stuartthomson.github.io/tags/physics/</loc>
+    <lastmod>2020-07-09T23:20:01+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://stuartthomson.github.io/posts/</loc>
+    <lastmod>2020-07-09T23:20:01+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://stuartthomson.github.io/</loc>
+    <lastmod>2020-07-09T23:20:01+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://stuartthomson.github.io/tags/</loc>
+    <lastmod>2020-07-09T23:20:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stuartthomson.github.io/categories/</loc>
   </url>
   
 </urlset>
