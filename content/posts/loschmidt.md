@@ -1,6 +1,6 @@
 ---
 title: "Loschmidt's Paradox"
-date: 2020-01-01T00:00:01Z
+date: 2020-09-27T20:39:07+01:00
 draft: false
 tags: ["Maths", "Philosophy"]
 ---
