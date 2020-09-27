@@ -22,3 +22,9 @@ unsafe= true
     pre = "tag"
     url = "/tags/"
     weight = 3
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+  [[menu.main]]
+    name = "Creative"
+    url = "/creative/"
