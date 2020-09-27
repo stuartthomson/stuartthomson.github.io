@@ -6,7 +6,7 @@
     <description>Recent content in Blog Posts on Stuart&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:01 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2020 20:39:07 +0100</lastBuildDate>
     
 	<atom:link href="http://stuartthomson.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Loschmidt&#39;s Paradox</title>
       <link>http://stuartthomson.github.io/posts/loschmidt/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:01 +0000</pubDate>
+      <pubDate>Sun, 27 Sep 2020 20:39:07 +0100</pubDate>
       
       <guid>http://stuartthomson.github.io/posts/loschmidt/</guid>
       <description>$$ \def\G{{\vec{\Gamma}}} \def\bm#1{{\vec{#1}}} $$
