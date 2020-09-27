@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creative Things on Stuart&#39;s Blog</title>
+    <link>http://stuartthomson.github.io/creative/</link>
+    <description>Recent content in Creative Things on Stuart&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 27 Sep 2020 16:56:39 +0100</lastBuildDate>
+    
+	<atom:link href="http://stuartthomson.github.io/creative/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Man Who Can&#39;t Put His Jacket On</title>
+      <link>http://stuartthomson.github.io/creative/jacket/</link>
+      <pubDate>Sun, 27 Sep 2020 16:56:39 +0100</pubDate>
+      
+      <guid>http://stuartthomson.github.io/creative/jacket/</guid>
+      <description>I made a short film about a man who struggles to put on a jacket.   </description>
+    </item>
+    
+  </channel>
+</rss>

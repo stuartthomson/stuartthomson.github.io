@@ -6,19 +6,38 @@
     <description>Recent content on Stuart&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 09 Jul 2020 23:20:01 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2020 16:56:39 +0100</lastBuildDate>
     
 	<atom:link href="http://stuartthomson.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>The Man Who Can&#39;t Put His Jacket On</title>
+      <link>http://stuartthomson.github.io/creative/jacket/</link>
+      <pubDate>Sun, 27 Sep 2020 16:56:39 +0100</pubDate>
+      
+      <guid>http://stuartthomson.github.io/creative/jacket/</guid>
+      <description>I made a short film about a man who struggles to put on a jacket.   </description>
+    </item>
+    
+    <item>
+      <title>Vscode Buttons</title>
+      <link>http://stuartthomson.github.io/projects/vscode-buttons/</link>
+      <pubDate>Sun, 27 Sep 2020 16:55:03 +0100</pubDate>
+      
+      <guid>http://stuartthomson.github.io/projects/vscode-buttons/</guid>
+      <description>Do you want to be able to make buttons to do whatever you want? Well, so do I, which is why this extension exists! Here&amp;rsquo;s where you can take a look:
+ VSCode Marketplace Github  </description>
+    </item>
+    
+    <item>
       <title>Loschmidt&#39;s Paradox</title>
       <link>http://stuartthomson.github.io/posts/loschmidt/</link>
-      <pubDate>Thu, 09 Jul 2020 23:20:01 +0000</pubDate>
+      <pubDate>Wed, 01 Jan 2020 00:00:01 +0000</pubDate>
       
       <guid>http://stuartthomson.github.io/posts/loschmidt/</guid>
-      <description>$$ \def\G{{\bf \Gamma}} \def\bm#1{{\bf #1}} $$
-Why do waves never build a sandcastle on the sea? This is the essence of the problem of irreversibility - there is nothing in the equations of motion that disallow it because the underlying physics is symmetric under a change in the direction of time. How do we get a universe with a definitive arrow of time from fundamental physics without one? This is the question I will try to answer in this essay.</description>
+      <description>$$ \def\G{{\vec{\Gamma}}} \def\bm#1{{\vec{#1}}} $$
+Why do waves never build a sandcastle? We often see the waves dissolve a carefully constructed sandcastle, but we never see the sea gather disparate grains of sand from the seabed and deposit them in the same shape on the beach. Both of these processes are in some sense allowed by the microscopic laws of physics, and yet we only ever observe one of them in real life.</description>
     </item>
     
   </channel>

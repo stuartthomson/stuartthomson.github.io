@@ -1,14 +1,25 @@
 /* https://niklasfasching.de/posts/just-enough-css/ */
 /* TODO: Go through this and tidy it up! */
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;500&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background: rgb(248, 248, 248);
+    color: #111;
  }
 
+ ::selection {
+    color: #fff;
+    background: #be0000;
+    text-shadow: none;
+}
+
  /* https://bwaycer.github.io/hugo_tutorial.hugo/tutorials/mathjax/ */
- code.has-jax {font: inherit;
+code.has-jax {font: inherit;
     font-size: 100%;
     background: inherit;
     border: inherit;
@@ -17,6 +28,7 @@
 
 html {
     overflow-y: scroll;
+    overflow-x: scroll;
     height: 100%;
     font: 100%/1.5 'Vollkorn', serif;
     word-wrap: break-word;
@@ -24,7 +36,25 @@ html {
     hyphens: auto;
     margin: 0 auto;
     padding: 1.5em;
- }
+    break-before: 0;
+}
+
+.drop-cap {
+    float: left;
+    font-family: 'Cormorant SC';
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 0px;
+    padding-right: 3px;
+    padding-left: 0px;
+  }
+
+
+/* body {
+    text-indent: 1.5em;
+} */
+
+/* TODO: Figure out how to style only 'body' content of posts. */
 
 @media (min-width: 768px) {
     html {
@@ -38,6 +68,7 @@ html {
  } }
 
 .text-with-side-note {
+    text-indent: 0;
     position: relative;
 }
 .side-note-l, .side-note-r {
@@ -59,18 +90,23 @@ html {
 }
 
 h1, h2, h3, h4 {
+    text-indent: 0em;
     margin: 3rem 0 0.5rem 0;
-    font-variant-caps: small-caps;
+    font-family: 'Cormorant SC';
+    /* font-variant-caps: small-caps; */
+    text-align: left;
     letter-spacing: 0.2em;
     line-height: 1.25;
+    font-weight: 600;
  }
 
 h2, h3, h4 {
-    color: rgb(136, 136, 136);
+    /* color: rgb(92, 92, 92); */
+    color: black;
 }
 
 a {
-    color: #c29a19;
+    color: #be0000;
     text-decoration: none;
  }
 a:hover, a:focus, a:active {
@@ -81,11 +117,10 @@ p {
     margin: 1em 0;
     line-height: 1.5;
  }
-p code {
-    background-color: #eee;
-    padding: 0.05em 0.2em;
-    border: 1px solid #ccc;
- }
+
+.diagram {
+    text-align: center;
+}
 
 ol, ul {
     max-width: 80%;
@@ -109,57 +144,12 @@ dl dd {
     margin: -1em 0 1em 1em;
  }
 
-img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-    padding: 0.5em;
- }
-
-blockquote {
-    padding-left: 1em;
-    font-style: italic;
-    border-left: solid 1px #fa6432;
- }
-
-table {
-    font-size: 1rem;
-    text-align: left;
-    caption-side: bottom;
-    margin-bottom: 2em;
- }
-table * {
-    border: none;
- }
-table thead, table tr {
-    display: table;
-    table-layout: fixed;
-    width: 100%;
- }
-table tr:nth-child(even) {
-    background-color: rgba(200, 200, 200, 0.2);
- }
-table tbody {
-    display: block;
-    max-height: 70vh;
-    overflow-y: auto;
- }
-table td, table th {
-    padding: 0.25em;
- }
-
-table, .highlight > pre, pre.example {
-    max-height: 70vh;
-    margin: 1em 0;
-    padding: 1em;
-    overflow: auto;
-    font-size: 0.85rem;
-    font-family: monospace, monospace;
-    border: 1px dashed rgba(250, 100, 50, 0.5);
-}
-
 .title {
     font-size: 2.5em;
+}
+
+.summary {
+    color: #111;
 }
 
 .subtitle {
@@ -210,7 +200,9 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-indent: 0;
 }
+
 header a + a {
     margin-left: 1rem;
 }
