@@ -192,18 +192,20 @@ figure figcaption {
     margin: 0.2em 0;
 }
 
-header {
+nav {
     display: flex;
     justify-content: space-between;
 }
-header nav {
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-indent: 0;
+    padding: 0 150px 0 150px;
 }
 
-header a + a {
+nav a + a {
     margin-left: 1rem;
 }
 
