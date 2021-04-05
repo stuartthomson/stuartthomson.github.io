@@ -6,10 +6,20 @@
     <description>Recent content on Stuart&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 27 Sep 2020 20:39:07 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 05 Apr 2021 10:49:48 +0100</lastBuildDate>
     
 	<atom:link href="http://stuartthomson.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>QuantumOctad</title>
+      <link>http://stuartthomson.github.io/creative/quantumoctad/</link>
+      <pubDate>Mon, 05 Apr 2021 10:49:48 +0100</pubDate>
+      
+      <guid>http://stuartthomson.github.io/creative/quantumoctad/</guid>
+      <description>This is a twitter bot that tweets random sentences. Each time it tweets it generates 8 possible sentences, and chooses between them using quantum random noise. This means that the universe&amp;rsquo;s wavefunction should have one eigth of its branches saying each of the sentences.
+Tweets by QuantumOctad</description>
+    </item>
     
     <item>
       <title>Loschmidt&#39;s Paradox</title>
