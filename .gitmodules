@@ -1,6 +1,7 @@
 [submodule "themes/norn"]
 	path = themes/norn
 	url = https://github.com/stuartthomson/hugo-theme-norn.git
+	branch = master
 [submodule "public"]
 	path = public
 	url = https://github.com/stuartthomson/stuartthomson.github.io.git
