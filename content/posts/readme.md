@@ -1,0 +1,1 @@
+http://lakecasimir.com/index.php?title=Blog
